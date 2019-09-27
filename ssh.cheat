@@ -1,0 +1,8 @@
+% ssh
+
+# docker <local>
+ssh root@127.0.0.1 -p 10122  
+
+# ssh免密登录 用户@域名或者ip
+ssh-copy-id -i ~/.ssh/id_rsa.pub <targetDomainOrIP>
+
